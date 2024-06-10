@@ -41,6 +41,20 @@ a{
 .right ul li:hover{
     border-bottom: 1px solid yellow;
 }
+.turn{
+    display: flex;
+    justify-content: space-between;
+    height:100px;
+    width:100%;
+}
+#player1{
+    position: absolute;
+    left:5%;
+}
+#player2{
+    position: absolute;
+    right:5%;
+}
 .playboard{
     background-color: red;
     border:1px gray solid;
@@ -57,12 +71,21 @@ a{
     margin-left:1%;
     margin-top:1%;
 }
+.resultbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
 .replay{
     background-color: black;
     height:100px;
     width:150px;
-    margin: 5% 60% 0 40%;
 
+}
+.result{
+    background-color: black;
+    height:100px;
+    width:150px;
 }
 .row1,.row2,.row3{
     display: flex;
