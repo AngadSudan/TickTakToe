@@ -54,7 +54,7 @@ a{
     background: rgb(30, 29, 29);
     height:150px;
     width:250px;
-    margin-left:5%;
+    margin-left:1%;
     margin-top:1%;
 }
 .replay{
@@ -64,19 +64,11 @@ a{
     margin: 5% 60% 0 40%;
 
 }
-.move1{
-    height:100px;
-    width:150px;
-    visibility:hidden;
+.row1,.row2,.row3{
+    display: flex;
+    justify-content: space-evenly;
 }
-.move2{
-    height:100px;
-    width:150px;
-    position:relative;
-    top:-75px;
-    /* right:100px; */
-    visibility:hidden;  
-}
+
 .footer{
     /* display:flex; */
     background-color: black;
